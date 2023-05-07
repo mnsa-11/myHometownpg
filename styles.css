@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+     background: linear-gradient( lightgoldenrodyellow,lightcyan);
+    color:black;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px brown ;
+    font-weight:700;
+    
+}
+
+home-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#city-name {
+    background:yellowgreen;
+    padding: 5px 10px;
+    font-family:Courier New, Courier, monospace;
+      border-radius: 100px;
+    margin: 5px 0 10px 0;
+}
+
+#city-details {
+    margin: 0;
+    background:lightcyan;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gift-section {
+    margin-top: 50px;
+   
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+     display: flex;
+  flex-direction: row;
+
+}
+.img-happy{
+    display:flex;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background:url("images/gg.cms");
+    background-size: cover;
+}
+
+
+#gift-img-happy:hover {
+    background-image: url("images/aarti.webp");
+
+}
+#gift-img-jhula:hover {
+    background-image: url("images/jhula.webp");
+}
+
+#gift-img-ashram:hover {
+    background-image: url("images/ashram.jpg");
+    width: 100%;
+  height:300px;
+
+}
+
+#gift-img-temple:hover {
+    background-image: url("images/temple.jpg");
+}
+
+#gift-img-yoganga:hover {
+    background-image: url("images/yoganga.webp");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: black;
+}
+.guide {
+    width: 500px;
+    margin: 0 auto;
+    padding: 2px;
+    display: flex;
+    justify-content:space-around;
+    text-align:center;
+    background:lightgoldenrodyellow;
+    color: black;
+    border-bottom: 6px solid #d8cefe;
+}
+.avatar{
+    border:5px yellowgreen;
+    width:60%;
+    border-radius:60%;
+    
+    
+}
